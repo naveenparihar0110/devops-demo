@@ -4,5 +4,5 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "Hello DevOps"}
+    return {"message": "Hello DevOps from CI Pipeline"}
 
